@@ -1,0 +1,232 @@
+@media only screen and (max-width : 520px){
+    h1{
+        font-size:2em;
+    }
+    h2{
+        font-size:1.5em;  
+    }
+      
+    article{
+        padding:1%;
+    }
+    p{
+        font-size:1.2em;
+    }
+    /******************** Entête***********************/
+        header figure.logo{
+        width:40%;
+    }
+    header figcaption{
+        width:65%;
+        padding:1%;
+    }
+    header strong{
+        font-size:1.5em;
+    }
+    
+    header figure.logo img{
+        width:30%;
+    }
+    header nav.primary{
+        width:40%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    header nav.primary a{
+        margin:0 1%;
+        font-size:1.4em;
+    }
+    header nav.social{
+        width:15%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav.social a{
+        font-size: 3.5em;
+        margin:0%;
+        
+    }
+    header figure.banner{
+        height:250px;
+    }
+   
+    header div{
+        height:100px;   
+        bottom:15%;
+    }
+   
+    /********************Fin Entête***********************/
+    
+    /******************** Main***********************/
+    
+    /******************** Sections***********************/
+    section{
+        flex-wrap: wrap;
+        width:100%;
+        margin:1% auto;
+        padding:1%;
+    }
+    section h2{
+        width:100%;
+        font-size:1.4em;
+        margin:1 0;
+    }
+    section h3{
+        font-size:1.1em;  
+    }
+    /******************** Section A propos***********************/
+    #elan article{
+        width:100%;
+    }
+   
+   
+    /******************** Fin A propos***********************/
+    
+    /******************** Section Equipe***********************/
+    #equipe div{
+        width:100%;
+        flex-direction: column;
+      
+    }
+    #equipe figure{
+        width:90%;
+        margin:1% auto;
+        position:relative;
+    }
+    /******************** Fin Equipe***********************/
+    
+    /******************** Section Formations***********************/
+    /******************** Fin Formations***********************/
+    
+    /******************** Section Contact***********************/
+    form{
+        width:95%;
+    }
+    input{
+        padding:2%;
+    
+    }
+  
+    textarea{
+        margin:2% auto;
+      
+    
+    }
+    input[type=text]{
+        margin:2% auto;
+    }
+    input[type=submit]{
+        width:60%;
+        background-color:rgb(255, 165, 0);
+    }
+    
+    /******************** Fin Contact***********************/
+}
+@media screen and (max-width : 768px){
+    h1{
+        font-size:2.8em;
+    }
+    h2{
+        font-size:2.5em;  
+    }
+    p{
+        font-size:1.5em;
+        margin:1% 0;
+    }
+    /******************** Entête***********************/
+  
+    header figure.logo{
+        width:30%;
+    }
+    header figcaption{
+        width:  65%;
+    }
+    header figure.logo img{
+        width:25%;
+    }
+    header nav.primary{
+        width:50%;
+        justify-content: center;
+    }
+    header nav.primary a{
+        margin:0 1%;
+        font-weight: 300;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+    header nav.social{
+        width:10%;
+    }
+    header nav.social a{
+        font-size: 3em;
+        margin:0 2%;
+        
+    }
+    header figure.banner{
+        height:300px;
+    }
+ 
+    header div{
+        height:150px;   
+        bottom:15%;
+        left:0;
+        
+    }
+    /********************Fin Entête***********************/
+    
+    /******************** Main***********************/
+   
+    /******************** Sections***********************/
+    section{
+        width:100%;
+        margin:1% auto;
+        padding:1%;
+    }
+    section h2{
+        width:100%;
+        font-size:1.9em;
+        margin:1 0;
+    }
+    section h3{
+        font-size:1.7em;  
+    }
+    /******************** Section A propos***********************/
+   
+   #elan{
+       flex-direction: column;
+   }
+    
+    /******************** Fin A propos***********************/
+    
+    /******************** Section Equipe***********************/
+    #equipe div{
+        width:100%;
+    }
+    /******************** Fin Equipe***********************/
+    
+    /******************** Section Formations***********************/
+    /******************** Fin Formations***********************/
+    
+    /******************** Section Contact***********************/
+    form{
+        width:100%;
+    }
+    input{
+        padding:2%;
+    }
+    textarea{
+        height:150px;
+        margin:2% auto;
+    }
+    input[type=text]{
+        margin:2% auto;
+    }
+    input[type=submit]{
+        width:50%;
+        background-color:rgb(255, 165, 0);
+    
+    }
+    
+    /******************** Fin Contact***********************/
+}
